@@ -32,7 +32,7 @@
                                 <td>
                                     <a href="NewsArticleDetails.aspx?NewsArticleID=<%#:Item.NewsArticleID%>">
                                         <img src="<%#:Item.NewsArticleImagePath%>"
-                                            width="100" height="75" style="border: solid" /></a>
+                                            width="250" height="225" style="border: solid" /></a>
                                 </td>
                             </tr>
                             <tr>
