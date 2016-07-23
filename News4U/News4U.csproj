@@ -211,8 +211,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="NewsArticleDetails.aspx" />
-    <Content Include="NewsArticleList.aspx" />
+    <Content Include="NewsArtileDetails.aspx" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -400,19 +399,12 @@
     <Compile Include="Models\NewsArticle.cs" />
     <Compile Include="Models\NewsArticleContext.cs" />
     <Compile Include="Models\PopulationScript.cs" />
-    <Compile Include="NewsArticleDetails.aspx.cs">
-      <DependentUpon>NewsArticleDetails.aspx</DependentUpon>
+    <Compile Include="NewsArtileDetails.aspx.cs">
+      <DependentUpon>NewsArtileDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="NewsArticleDetails.aspx.designer.cs">
-      <DependentUpon>NewsArticleDetails.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="NewsArticleList.aspx.cs">
-      <DependentUpon>NewsArticleList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="NewsArticleList.aspx.designer.cs">
-      <DependentUpon>NewsArticleList.aspx</DependentUpon>
+    <Compile Include="NewsArtileDetails.aspx.designer.cs">
+      <DependentUpon>NewsArtileDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
