@@ -8,11 +8,12 @@ namespace News4U.Logic
 {
     public class AddNewsArticles
     {
-        public bool AddNewsArticle(string NewsArticleTitle, string NewsArticleMainBody, string NewsArticlePrice, string NewsArticleCategory, string NewsArticleImagePath)
+        public bool AddNewsArticle(string NewsArticleTitle, string NewsArticleMainBody,string NewsArticleDatePublished ,string NewsArticleImagePath)
         {
             var myNewsArticle = new NewsArticle();
             myNewsArticle.NewsArticleTitle = NewsArticleTitle;
             myNewsArticle.NewsArticleMainBody = NewsArticleMainBody;
+            myNewsArticle.NewsArticleDatePublished = NewsArticleDatePublished;
             myNewsArticle.NewsArticleImagePath = NewsArticleImagePath;
 
             using (NewsArticleContext _db = new NewsArticleContext())
