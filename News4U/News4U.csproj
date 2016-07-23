@@ -396,6 +396,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Logic\AddNewsArticles.cs" />
     <Compile Include="Logic\AdminRole.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\NewsArticle.cs" />
