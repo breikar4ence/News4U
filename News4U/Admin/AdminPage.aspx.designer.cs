@@ -31,13 +31,13 @@ namespace News4U.Admin {
         protected global::System.Web.UI.WebControls.TextBox AddNewsArticleTitle;
         
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// RequiredFieldValidatorTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorTitle;
         
         /// <summary>
         /// LabelAddMainBody control.
@@ -58,13 +58,13 @@ namespace News4U.Admin {
         protected global::System.Web.UI.WebControls.TextBox AddNewsArticleMainBody;
         
         /// <summary>
-        /// RequiredFieldValidator2 control.
+        /// RequiredFieldValidatorMainBody control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorMainBody;
         
         /// <summary>
         /// LabelAddNewsArticleDatePublished control.
@@ -85,13 +85,13 @@ namespace News4U.Admin {
         protected global::System.Web.UI.WebControls.TextBox AddNewsArticleDatePublished;
         
         /// <summary>
-        /// RequiredFieldValidator3 control.
+        /// RequiredFieldValidatorDatePublished control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorDatePublished;
         
         /// <summary>
         /// LabelAddNewsArticleImagePath control.
@@ -112,13 +112,13 @@ namespace News4U.Admin {
         protected global::System.Web.UI.WebControls.TextBox AddNewsArticleImagePath;
         
         /// <summary>
-        /// RequiredFieldValidator4 control.
+        /// RequiredFieldValidatorImagePath control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorImagePath;
         
         /// <summary>
         /// AddNewsArticleButton control.
@@ -173,5 +173,113 @@ namespace News4U.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LabelRemoveStatus;
+        
+        /// <summary>
+        /// LabelEditNewsArticle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelEditNewsArticle;
+        
+        /// <summary>
+        /// DropDownEditNewsArticle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownEditNewsArticle;
+        
+        /// <summary>
+        /// LabelEditNewsArticleTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelEditNewsArticleTitle;
+        
+        /// <summary>
+        /// EditNewsArticleTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EditNewsArticleTitle;
+        
+        /// <summary>
+        /// LabelEditNewsArticleMainBody control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelEditNewsArticleMainBody;
+        
+        /// <summary>
+        /// EditNewsArticleMainBody control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EditNewsArticleMainBody;
+        
+        /// <summary>
+        /// LabelEditNewsArticleDatePublished control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelEditNewsArticleDatePublished;
+        
+        /// <summary>
+        /// EditNewsArticleDatePublished control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EditNewsArticleDatePublished;
+        
+        /// <summary>
+        /// LabelEditNewsArticleImagePath control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelEditNewsArticleImagePath;
+        
+        /// <summary>
+        /// EditNewsArticleImagePath control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EditNewsArticleImagePath;
+        
+        /// <summary>
+        /// EditNewsArticleButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button EditNewsArticleButton;
+        
+        /// <summary>
+        /// LabelEditStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelEditStatus;
     }
 }
