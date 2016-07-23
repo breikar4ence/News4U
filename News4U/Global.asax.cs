@@ -8,6 +8,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using News4U.Logic;
 
 namespace News4U
 {
@@ -21,6 +22,10 @@ namespace News4U
 
             // Initialize the product database.
             Database.SetInitializer(new PopulationScript());
+
+            // Create the admin role and user.
+            AdminRole administrator = new AdminRole();
+            administrator.AddUserAndRole();
         }
     }
 }
