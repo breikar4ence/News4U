@@ -7,6 +7,8 @@ using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
+using System.Linq;
+using News4U.Models;
 
 namespace News4U
 {
@@ -70,6 +72,13 @@ namespace News4U
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        public IQueryable<NewsArticle> GetNewsArticles()
+        {
+            var _db = new News4U.Models.NewsArticleContext();
+            IQueryable<NewsArticle> query = _db.NewsArticle;
+            return query;
         }
 
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)

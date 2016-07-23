@@ -11,7 +11,7 @@ namespace News4U
 {
 
 
-    public partial class NewsArtileDetails
+    public partial class NewsArticleDetails
     {
     }
 }
