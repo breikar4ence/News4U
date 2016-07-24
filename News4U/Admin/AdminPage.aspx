@@ -14,7 +14,7 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidatorTitle" runat="server" ErrorMessage="Title required" ControlToValidate="AddNewsArticleTitle" SetFocusOnError="true" Display="Dynamic"></asp:RequiredFieldValidator>
             </td>
         </tr>
-        <p></p>
+       <tr></tr>
         <tr>
             <td>
                 <asp:Label ID="LabelAddMainBody" runat="server"> Main Body </asp:Label>
@@ -24,7 +24,7 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidatorMainBody" runat="server" ErrorMessage="Main body required" ControlToValidate="AddNewsArticleMainBody" SetFocusOnError="true" Display="Dynamic"></asp:RequiredFieldValidator>
             </td>
         </tr>
-        <p></p>
+        <tr></tr>
         <tr>
             <td>
                 <asp:Label ID="LabelAddNewsArticleDatePublished" runat="server"> Date Published </asp:Label>
@@ -34,7 +34,7 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidatorDatePublished" runat="server" ErrorMessage="Date published required" ControlToValidate="AddNewsArticleDatePublished" SetFocusOnError="true" Display="Dynamic"></asp:RequiredFieldValidator>
             </td>
         </tr>
-        <p></p>
+        <tr></tr>
         <tr>
             <td>
                 <asp:Label ID="LabelAddNewsArticleImagePath" runat="server"> Image path </asp:Label>

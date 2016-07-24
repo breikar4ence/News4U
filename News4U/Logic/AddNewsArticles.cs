@@ -10,20 +10,27 @@ namespace News4U.Logic
     {
         public bool AddNewsArticle(string NewsArticleTitle, string NewsArticleMainBody,string NewsArticleDatePublished ,string NewsArticleImagePath)
         {
-            var myNewsArticle = new NewsArticle();
-            myNewsArticle.NewsArticleTitle = NewsArticleTitle;
-            myNewsArticle.NewsArticleMainBody = NewsArticleMainBody;
-            myNewsArticle.NewsArticleDatePublished = NewsArticleDatePublished;
-            myNewsArticle.NewsArticleImagePath = NewsArticleImagePath;
-
-            using (NewsArticleContext _db = new NewsArticleContext())
+            try
             {
-                // Add NewsArticle to DB.
-                _db.NewsArticle.Add(myNewsArticle);
-                _db.SaveChanges();
+                var myNewsArticle = new NewsArticle();
+                myNewsArticle.NewsArticleTitle = NewsArticleTitle;
+                myNewsArticle.NewsArticleMainBody = NewsArticleMainBody;
+                myNewsArticle.NewsArticleDatePublished = NewsArticleDatePublished;
+                myNewsArticle.NewsArticleImagePath = NewsArticleImagePath;
+
+                using (NewsArticleContext _db = new NewsArticleContext())
+                {
+                    // Add NewsArticle to DB.
+                    _db.NewsArticle.Add(myNewsArticle);
+                    _db.SaveChanges();
+                }
+                // Success.
+                return true;
             }
-            // Success.
-            return true;
+            catch
+            {
+                return false;
+            }
         }
     }
 }
