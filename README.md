@@ -5,7 +5,7 @@ Admin user login
 username : adm1n@News4U.com
 password : SuchNewsMuchWow
 
-Admin Panel has working functionality for adding, deleting or editing news articles. Admin panel is only accessible for admin users who
+Admin Panel has working functionality for adding, deleting or editing news articles. Admin panel is only accessible by admin users who
 are only created programatically.
 
 NOTE! The text fields for the ADD section should be filled out when adding an article (it sometimes bugs out if all fields are empty)
