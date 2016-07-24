@@ -20,7 +20,7 @@
                 <asp:Label ID="LabelAddMainBody" runat="server"> Main Body </asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="AddNewsArticleMainBody" runat="server"></asp:TextBox>
+                <asp:TextBox ID="AddNewsArticleMainBody" runat="server" TextMode="MultiLine"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidatorMainBody" runat="server" ErrorMessage="Main body required" ControlToValidate="AddNewsArticleMainBody" SetFocusOnError="true" Display="Dynamic"></asp:RequiredFieldValidator>
             </td>
         </tr>
@@ -52,7 +52,7 @@
     <h2>Remove news article</h2>
     <table>
         <tr>
-            <td><asp:Label ID="LabelRemoveNewsArticle" runat="server"> News article</asp:Label></td>
+            <td><asp:Label ID="LabelRemoveNewsArticle" runat="server">Remove news article </asp:Label></td>
             <td><asp:DropDownList ID="DropDownRemoveNewsArticle" runat="server" ItemType="News4U.Models.NewsArticle" SelectMethod="GetNewsArticle" AppendDataBoundItems="true" DataTextField="NewsArticleTitle" DataValueField="NewsArticleID"></asp:DropDownList></td>
         </tr>
     </table>
