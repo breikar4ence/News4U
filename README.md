@@ -8,5 +8,7 @@ password : SuchNewsMuchWow
 Admin Panel has working functionality for adding, deleting or editing news articles. Admin panel is only accessible by admin users who
 are only created programatically.
 
-NOTE! The text fields for the ADD section should be filled out when adding an article (it sometimes bugs out if all fields are empty)
-Other than that, no bugs have been found
+When editing an article, if a text field is left blank, it remains unchanged for the chosen article
+
+A bug which throws exceptions when adding a new article with all fields empty has been fixed. No other bugs have been found
+
